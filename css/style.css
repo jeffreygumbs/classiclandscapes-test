@@ -165,7 +165,7 @@ html{
 }
 .projects-primary--main {
     display: block;
-    font-size: 8rem;
+    font-size: 6rem;
     text-transform: uppercase;
     font-weight: 400;
     animation-name: moveInLeft;
@@ -173,7 +173,7 @@ html{
     animation-timing-function: ease-in;
 }
 .projects-primary--sub {
-    margin-top: 5px;
+    margin-top: .2rem;
     display: block;
     font-size: 2rem;
     font-weight: 700;
@@ -181,6 +181,21 @@ html{
     animation: moveInRight 1s ease-in;
 }
 /* Featured Projects page h2 text end */
+/* Featured Projects page Images start */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: .5rem;
+    height: 40rem;
+    width: 60rem;
+  }
+  .grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+/* Featured Projects page Images end */
+
 /* this is the end on the Projects section */
 /* ============================================ */
 /* this is the start on the Products section */
