@@ -40,9 +40,6 @@ html{
     top:40%;
     list-style-type: none;
 }
-.main-menu-list{
-    
-}
 .main-menu-list a{
     padding: 10px 15px;
 	text-transform: uppercase;
@@ -202,6 +199,17 @@ html{
 .products{
     height: 50vh;
     background-size: cover;
+}
+.products__text-box{
+    position: relative;
+    top: 15rem;
+    text-align: center;
+}
+.products-primary{
+    color: #ccdfcb;
+    backface-visibility: hidden;
+    font-size: 1.6rem;
+    
 }
 .container8{
     width: 100vw;
