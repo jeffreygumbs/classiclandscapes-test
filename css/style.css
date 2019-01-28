@@ -11,7 +11,7 @@ html{
 .container{
     height: 100vh;
     background-size: cover;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/img/Home-Page/hero-image_classic1.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./img/Home-Page/hero-image_classic1.jpg");
 }
 /* start navigation section */
 .nav{
@@ -182,14 +182,14 @@ html{
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: .5rem;
+    padding: 20rem 40rem;
     height: 40rem;
     width: 60rem;
   }
   .grid-item {
-    padding: 20px;
-    font-size: 30px;
+    padding: .5rem;
     text-align: center;
+    object-fit: contain;
   }
 /* Featured Projects page Images end */
 
@@ -202,13 +202,20 @@ html{
 }
 .products__text-box{
     position: relative;
-    top: 15rem;
+    top: 15%;
     text-align: center;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border: 4px solid #056571;
+    width: 41.6rem;
+    height: 9.2rem;
 }
 .products-primary{
-    color: #ccdfcb;
+    color: #056571;
+    padding: 2rem;
+    text-transform: uppercase;
     backface-visibility: hidden;
-    font-size: 1.6rem;
+    font-size: 3.6rem;
     
 }
 .container8{
