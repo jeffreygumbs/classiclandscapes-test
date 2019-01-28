@@ -181,14 +181,14 @@ html{
 /* Featured Projects page Images start */
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-gap: .5rem;
-    max-width: 96rem;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    grid-gap: 2rem;
+    max-width: 88rem;
     margin: 20rem auto 3rem;
      
   }
   .grid-item {
-    padding: .5rem;
+    
   }
 /* Featured Projects page Images end */
 
