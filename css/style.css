@@ -182,9 +182,11 @@ html{
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 20rem 40rem;
-    height: 40rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
     width: 60rem;
+    transform: translate(-50%,-50%); 
   }
   .grid-item {
     padding: .5rem;
